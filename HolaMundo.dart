@@ -1,3 +1,3 @@
 main() {
-  print("hola mundo");
+  print("hola mundo"); //impresion simple del "Hola Mundo"
 }
