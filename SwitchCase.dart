@@ -7,14 +7,13 @@ main(List<String> arguments) {
       }
       break;
     case 2:
-      {
-        print("Retornamos valor $opcion");
-      }
-      break;
+      print("Retornamos valor $opcion");
+      continue continuaAqui;
 
+    continuaAqui:
     default:
       {
-        print("opcion fuera del rango permitido");
+        print("opcion continuado");
       }
       break;
   }
