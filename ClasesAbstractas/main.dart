@@ -1,6 +1,5 @@
 import 'Cajero.dart';
 import 'Chofer.dart';
-import 'Empleado.dart';
 
 main() {
   Chofer chofer = Chofer()
@@ -18,3 +17,4 @@ main() {
   cajero.calcularSalario();
   cajero.actividad();
 }
+ 
